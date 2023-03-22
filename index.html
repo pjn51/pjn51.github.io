@@ -1,39 +1,235 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title text-align="center">Patrick Norman</title>
-
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="index.css">
-
-		<style>
-			
-		</style>
-
-		<script src="index.js"></script>
-
-	</head>
-
-	<body>
-		<div class="top-bar header" id="navbar">
-			<h1 class="negative-title">Patrick Norman</h1>
-			<h1 class="negative-title">&#127968 My homepage</h1>
-		</div>
-
-		<h1 class="content">&#127780 Welcome</h1>
-		<p class="content">This index will eventually have lots of cool stuff. I want to showcase my skills, have a bio, and generally do some cool stuff.</p>
-		<br>
-		<h1 class="content">&#129488 Who am I?</h1>
-		<p class="content">My name is Patrick, or Yat for short. I am trying to show some skills and get more familiar with HTML, CSS, and JavaScript.</p>
-		<br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br>
-		<p class="content">You found the secret of Yat's treasure...$$$</p>
-
-	</body>
-</html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="https://ogp.me/ns#"
+    xmlns:fb="http://ogp.me/ns/fb#" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Eylen Kim</title>
+        <meta name="description" content="Eylen Kim specializes in UI/UX design, web development, and visual design." />
+        <meta name="keywords" content="Eylen, Eylen Kim, eylenkim, UX, UI, Seattle, Washington, HTML, CSS, JavaScript">
+        <meta name="author" content="Eylen Kim" />
+        <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <!-- Mobile Meta
+        ––––––––––––––––––––––––––––––––––––––––––––––––––-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!--  Favicon
+        ––––––––––––––––––––––––––––––––––––––––––––––––––-->
+        <link rel="icon" type="image/png" href="assets/favicon.png" />
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://eylenkim.com/">
+        <meta property="og:title" content="Eylen Kim">
+        <meta property="og:description" content="Eylen Kim specializes in UI/UX design, web development, and visual design.">
+        <meta property="og:image" content="assets/metadata-pic.png">
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://eylenkim.com/">
+        <meta property="twitter:title" content="Eylen Kim">
+        <meta property="twitter:description" content="Eylen Kim specializes in UI/UX design, web development, and visual design.">
+        <meta property="twitter:image" content="assets/metadata-pic.png">
+    </head>
+    <body>
+        <header>
+            <div class="nav-wrap">
+                <nav id="main-menu">
+                    <ul class="nav-left">
+                        <li><a href="index.html"><img src="assets/Logo.svg"/></a></li>
+                    </ul>
+                    
+                    <ul class="nav-right">
+                        <li><a href="about/about.html">About Me</a></li>
+                        <li><a href="mailto:hello@eylenkim.com">Contact</a></li>
+                    </ul>
+                    
+                    <span id="hamburger-bar" onclick="openNav()">
+                        <img src="assets/nav-bar.svg" />
+                    </span>
+                    <a href="javascript:void(0)"
+                        class="closebtn" onclick="closeNav()">
+                        ×
+                    </a>
+                    
+                </nav>
+                <! -- Responsive Nav Bar -->
+                <div id="myNav" class="overlay">
+                    <div class="overlay-content">
+                        <a href="index.html">Home</a>
+                        <a href="about/about.html">About Me</a>
+                        <a href="mailto:hello@eylenkim.com">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <! -- UI/UX -->
+        <section class="mt-176">
+            <div class="container project-hover">
+                <div class="row">
+                    <! -- Spotify -->
+                    <div class="col-xl-6">
+                        <a href="spotify/spotify.html">
+                            <div class="box">
+                                <img src="assets/home/spotify.png" />
+                                <div class="description">
+                                    <p class="no-hover">
+                                        UI/UX Design<br>Research & Testing<br>Design Guidelines
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="box-title">
+                                Spotify
+                            </p>
+                        </a>
+                    </div>
+                    <! -- Wayfarer -->
+                    <div class="col-xl-6">
+                        <a href="wayfarer/wayfarer.html">
+                            <div class="box">
+                                <img src="assets/home/wayfarer.png" />
+                                <div class="description">
+                                    <p class="no-hover">
+                                        UI/UX DESIGN <br>VISUAL DESIGN<br>BRAND IDENTITY
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="box-title">
+                                Wayfarer
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <! -- Logos -->
+                    <div class="col-xl-6">
+                        <a href="logos/logos.html">
+                            <div class="box">
+                                <img src="assets/home/logos-header.png" />
+                                <div class="description">
+                                    <p class="no-hover">
+                                        Front-End Web Development <br> Component Library + Style Guide <br>e-Commerce
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="box-title">
+                                Faithlife - eCommerce Pages
+                            </p>
+                            
+                        </a>
+                    </div>
+                    <! -- Digital Art -->
+                    <div class="col-xl-6">
+                        <a href="art/art.html">
+                            <div class="box">
+                                <img src="assets/home/art.png" />
+                                <div class="description">
+                                    <p class="no-hover">
+                                        Illustration<br>Creative Ideation<br>Procreate + Photoshop
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="box-title">
+                                Digital Art - Mini Portfolio
+                            </p>
+                            
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    
+                  
+                    <div class="col-xl-6" style="margin-top:40px">
+                            <p>
+                                * Other client work samples available upon request
+                            </p>
+                        </a>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        
+        <footer class="mt-112 mb-48">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="row footer-links">
+                            <div class="col-md">
+                                <a href="https://linkedin.com/in/eylenkim" target="_blank">
+                                    <h4>
+                                    LinkedIn
+                                    </h4>
+                                </a>
+                            </div>
+                            <div class="col-md">
+                                <a href="https://behance.net/eylen" target="_blank">
+                                    <h4>
+                                    Behance
+                                    </h4>
+                                </a>
+                            </div>
+                            <div class="col-md">
+                                <a href="https://twitter.com/EylenAndTheCode" target="_blank">
+                                    <h4>
+                                    Twitter
+                                    </h4>
+                                </a>
+                            </div>
+                            <div class="col-md">
+                                <a href="https://github.com/eylenkim" target="_blank">
+                                    <h4>
+                                    Github
+                                    </h4>
+                                </a>
+                            </div>
+                            <div class="col-md">
+                                <a href="https://medium.com/@eylenkim" target="_blank">
+                                    <h4>
+                                    Medium
+                                    </h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm copyright">
+                        <h4>&copy; Eylen Kim <script>document.write(new Date().getFullYear())</script> &ndash; Self-Coded ✶</h4>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script>
+        function openNav() {
+        document.getElementById(
+        "myNav").style.height = "100%";
+        document.getElementById("hamburger-bar").style.display="none";
+        document.querySelector(".closebtn").style.display="block";
+        
+        }
+        
+        function closeNav() {
+        document.getElementById(
+        "myNav").style.height = "0%";
+        document.querySelector(".closebtn").style.display="none";
+        const mediaQuery = window.matchMedia("(max-width: 1170px)");
+        if (mediaQuery.matches) {
+        document.getElementById("hamburger-bar").style.display="block";}
+        }
+        
+        </script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+        ScrollReveal().reveal('html', { delay: 400, duration: 2000});
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0R00BE6CGZ"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-0R00BE6CGZ');
+        </script>
+        
+        
+        <body>
+        </html>
