@@ -35,13 +35,18 @@
 	src: url("assets/fonts/Agrandir/Agrandir-TextBold.woff") format("woff");
 }
 
+@font-face {
+	font-family: "Gotham";
+	src: url("assets/fonts/Gotham-Medium.woff") format("woff");
+}
+
 h1, h2, h3 {
-	font-family: "Agrandir";
+	font-family: "Gotham";
 	font-size: 24px !important;
 }
 
 .pill-button {
-	font-family: "Agrandir";
+	font-family: "Gotham";
 	font-size: 18px !important;
 }
 
@@ -54,7 +59,7 @@ p > b, p.mb-24 > b {
 }
 
 h1 {
-	font-family: "Agrandir";
+	font-family: "Gotham";
 	font-size: 48px !important;
 }
 
@@ -129,7 +134,7 @@ img {
 }
 
 .side-nav li a:hover, .side-nav li a.active {
-	color: #c7430a !important;
+	color: #0a6aca !important;
 }
 
 /***** Margins ******/
@@ -202,7 +207,7 @@ a {
 }
 
 a p:hover, p>a:hover, a:hover {
-	color: #B7410E !important;
+	color: #0a6aca !important;
 	transition: .5s;
 	transition: .5s;
 	-webkit-transition: .5s;
@@ -272,7 +277,7 @@ img:not([src]) {
 }
 
 .pill-button:hover {
-	color: #c7430a;
+	color: #0a6aca;
 	transition: .5s;
 }
 
@@ -504,7 +509,7 @@ display: inline;
 }
 
 #main-menu > ul.nav-left > li > a > img:hover {
-color: #b94819;
+color: #0a6aca;
 transition: .5s;
 }
 
