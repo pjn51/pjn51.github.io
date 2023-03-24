@@ -191,6 +191,9 @@ img {
 	color: black !important;
 }
 
+.pn-logo {
+	margin-top: 8px;
+}
 /***** Column / Grid / Full Page******/
 * {
 	background-color: #FCFCFC !important;
